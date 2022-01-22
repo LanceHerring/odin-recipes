@@ -1,8 +1,11 @@
-h1{
+body{
+    background-color: #cc954375;
+}
+.title{
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #cc9543;
-    margin: auto;
-    margin-bottom: 25px;
-    padding: 1rem;
+    margin-bottom: 40px;
     border-radius: 0.2em;
     box-shadow: 0 0.05em 0.25em 0 rgb(0 0 0 / 50%);
     color: white;
@@ -10,7 +13,6 @@ h1{
     text-align: center;
     padding-top: 10px;
     margin-top: 10px;
-    margin-bottom: 10px;
 
 }
 h2{
@@ -21,6 +23,7 @@ h2{
     max-width: 250px;
     border: none;
     text-align: center;
+    list-style: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
